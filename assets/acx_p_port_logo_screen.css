@@ -1,0 +1,61 @@
+
+@media screen and (min-width:481px)
+{
+
+}
+
+@media screen and (min-width:640px)
+{
+
+}
+
+
+@media screen and (min-width:768px)
+{
+}
+
+
+@media screen and (min-width:1023px)
+{
+	.acx_p_port_logo_lbx_content {
+ 
+  float: none;
+  margin: 200px auto;
+  max-width: 1024px;
+}
+
+.acx_p_port_close {
+  top: 13px;
+}
+.acx_p_port_logo_lbx_left {
+  max-width: 615px;
+}
+.acx_p_port_logo_right_canvas {
+  max-width: 409px;
+  padding-left: 30px;
+}
+.acx_p_port_logo_right_inner_cnvs {
+  padding: 45px 15px 10px;
+}
+
+.acx_p_port_logo_content_scroll_cnvs {
+  max-height: 500px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+}
+
+
+@media screen and (min-width:1200px)
+{
+
+}
+
+@media screen and (min-width:1440px)
+{
+
+}
+
+
+

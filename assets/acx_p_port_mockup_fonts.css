@@ -1,0 +1,22 @@
+
+
+/* Armata */
+@font-face {
+    font-family: 'Armata-Regular';
+    src:url('acx_p_port_mockup_fonts/Armata-Regular.ttf') format('truetype');
+    font-weight:normal;
+    font-style: normal;
+}
+
+/* Fontello */
+
+@font-face {
+      font-family: 'fontello';
+      src: url('acx_p_port_mockup_fonts/fontello.eot?2368354');
+      src: url('acx_p_port_mockup_fonts/fontello.eot?2368354#iefix') format('embedded-opentype'),
+           url('acx_p_port_mockup_fonts/fontello.woff?2368354') format('woff'),
+           url('acx_p_port_mockup_fonts/fontello.ttf?2368354') format('truetype'),
+           url('acx_p_port_mockup_fonts/fontello.svg?2368354#fontello') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }

@@ -1,0 +1,246 @@
+#acx_pfm_show_logos_left {
+    width: 20%;
+}
+#acx_pfm_show_logos_left li {
+  float: left;
+  width: 100%;
+}
+#acx_pfm_show_logos_left li img {
+  height: auto;
+  max-height: 100px;
+  width: 100%;
+}
+
+
+/*
+ Theme Name:     Divi Child
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         Elegant Themes
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+.section-custom
+{
+	width: 100%;
+	/*float: left;*/
+	transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+}
+
+.acx_inside
+{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.acx_gallery_filtr {
+  display: table;
+  margin: 0 auto;
+}
+.acx_gal_filter_grp {
+  float: left;
+  padding: 20px 0;
+  width: 100%;
+}
+
+
+
+.acx_gal_filter_grp > a {
+  border: 1px solid transparent;
+	border-radius: 25px;
+	box-shadow: 0px 0px 2px #f92c8b;
+  color: #414141;
+  display: block;
+  float: left;
+  font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+  font-size: 14px;
+  margin: 0 5px;
+  padding: 6px 30px;
+  text-transform: uppercase;
+  cursor:pointer;
+	transition: all 0.3s ease;
+}
+
+@media (max-width: 479px){
+	.acx_gal_filter_grp > a {
+		padding: 4px 7px;
+		margin-bottom: 5px;
+	}
+}
+
+.acx_gal_filter_grp > a:hover
+{
+	color:#fff;
+	background-image: linear-gradient(
+90deg,#f7828e 0%,#fcb6ab 100%);
+}
+
+.acx_button.is-checked {
+  background-image: linear-gradient(
+90deg,#f7828e 0%,#fcb6ab 100%);
+  color: white;
+
+}
+
+
+.acx_gallery_wrk_cnvs {
+  float: left;
+  width: 100%;
+  margin-top:30px;
+  margin-bottom: 50px;
+  transition:none;
+}
+.acx_gal_wrk_split {
+  float: left;
+  width: 25%;
+  overflow:hidden;
+
+}
+
+.acx_gal_inner_split {
+  float: left;
+  position: relative;
+  width: 100%;
+}
+.acx_gal_inner_split img {
+	vertical-align:middle;
+  width: 100%;
+  transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+}
+
+.hover_bg {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top:-100%;
+  width: 100%;
+  	transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+}
+
+.gal_hvr_cntnt {
+  display: table;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.gal_link_hvr {
+  display: table;
+  margin: 0 auto;
+}
+.gal_link_hvr a {
+  display: block;
+  float: left;
+  height: 55px;
+  width: 55px;
+  background:url(assets/images/gal_hvr_icns.png) no-repeat;
+  border-radius: 50%;
+  margin: 0 7px;
+  border:2px solid #f92c8b;
+}
+.gal_link_hvr a:hover
+{
+	background-color: #f92c8b;
+}
+a.gal_zoom {
+  background-position: 10px 2px;
+}
+a.gal_linkto
+{
+	background-position: 10px -74px;
+}
+
+.acx_gal_wrk_split:hover .hover_bg
+{
+	top:0;
+}
+
+.acx_gal_wrk_split:hover .acx_gal_inner_split img
+{
+	-moz-transform:scale(1.4);
+	-webkit-transform:scale(1.4);
+	-o-transform:scale(1.4);
+	transform:scale(1.4);
+}
+
+
+.portfolio_opened
+{
+	display:block;
+	overflow:hidden;
+}
+.portfolio_opened #acx_webex_body_content
+{
+	display:block;
+	margin-left:110%;
+}
+.portfolio_opened .def_fix_nav
+{
+	display:none;
+}
+.portfolio_opened .scroll_req_qt
+{
+	display:none;
+}
+ #acx_webex_loading_1
+{
+    background: rgba(1, 1, 1, 0.5);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	z-index: 1000;
+}
+#acx_webex_loading_1 .load_1
+{
+    background: url("assets/images/load.gif") no-repeat scroll 50% 50% transparent;
+    border-radius: 20px 20px 20px 20px;
+    height: 100px;
+    margin-left: -40px;
+	margin-top : -40px;
+	top:40%;
+	left:50%;
+	position: absolute;
+    opacity: 0.6;
+    width: 100px;
+}
+#acx_webex_body_content
+{
+  z-index: 9999;
+	/*float:left;*/
+	width:100%;
+	/*left:0;*/
+	position:relative;
+	transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	/* overflow-x:hidden;
+	overflow-y:auto; */
+}
+#acx_light_cover_cls
+{
+	right:0;
+}

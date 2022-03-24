@@ -1,0 +1,185 @@
+/* Mobile */
+
+
+@media screen and (min-width:481px)
+{
+.acx_p_port_lbx_title {
+  display: table;
+  float: left;
+  max-width: 390px;
+  text-align: left;
+}
+
+.acx_p_port_mode_switch {
+  background-color: transparent;
+  max-width: 200px;
+}
+}
+
+
+
+@media screen and (min-width:640px)
+{
+.acx_p_port_lbx_title {
+  max-width: 395px;
+}
+}
+
+
+@media screen and (min-width:768px)
+{
+.acx_p_port_lbx_title {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+.acx_p_port_mode_switch {
+  /*background-color: #e4e1d9;*/
+  margin-right: 0;
+  max-width: 100%;
+}
+.acx_p_port_desktop_img {
+  max-height: 600px;
+}
+.acx_p_port_close {
+  right: 15px;
+  top: 15px;
+}
+
+/* Tablet Styles */
+
+
+.acx_p_port_tablet_frame_cover {
+  background:url(acx_p_port_mockup_images/acx_p_port_tab_frame.png) no-repeat scroll center center / 100% auto;
+  margin: 20px auto;
+  max-width: 100%;
+  position: relative;
+  width: 513px;
+  
+}
+
+.acx_p_port_tablet_image_cnvs {
+  height: 80%;
+  left: 10.8%;
+  max-height: 100%;
+  overflow: auto;
+  position: absolute;
+  top: 10%;
+  width: 78%;
+  z-index: 999;
+}
+.acx_p_port_tablet_frame_cover > img {
+  display:block;
+}
+
+/* mob Styles */
+
+
+.acx_p_port_mob_frame_cover {
+  background:url(acx_p_port_mockup_images/acx_p_port_mob_frame.png) no-repeat scroll center center / 100% auto;
+  margin: 20px auto;
+  max-width: 100%;
+  position: relative;
+  width: 374px;
+  
+}
+
+.acx_p_port_mob_image_cnvs {
+  height: 69.7%;
+  left: 7.6%;
+  max-height: 100%;
+  overflow-y: scroll;
+  position: absolute;
+  top: 15.22%;
+  width: 85%;
+  z-index: 999;
+}
+
+.acx_p_port_mob_frame_cover > img {
+  display:block;
+}
+
+}
+
+
+@media screen and (min-width:1023px)
+{
+.acx_p_port_lbx_left_cnvas {
+  max-width: 614px;
+}
+.acx_p_port_lbx_inside {
+  padding:0px;
+}
+.acx_p_port_right_canvas {
+  max-width: 410px;
+  padding-left: 30px;
+}
+.acx_p_port_mockup_canvas {
+  padding:0px;
+}
+/*.acx_p_port_desktop_img {
+	max-height:100%;
+}*/
+.acx_p_port_switch_mode_in {
+  float: right;
+}
+.acx_p_port_lbx_content {
+  float:none;
+  margin: 150px auto;
+  max-width: 1024px;
+  display:block;
+  -moz-box-shadow:0px 0px 4px rgba(0,0,0,0.5);
+  -o-box-shadow:0px 0px 4px rgba(0,0,0,0.5);
+  -ms-box-shadow:0px 0px 4px rgba(0,0,0,0.5);
+  -webkit-box-shadow:0px 0px 4px rgba(0,0,0,0.5);
+  box-shadow:0px 0px 4px rgba(0,0,0,0.5);
+}
+.acx_p_port_close {
+  right: 15px;
+  top: 15px;
+}
+.acx_p_port_lbx_title {
+  padding-left: 20px;
+}
+.acx_p_port_content_scroll_cnvs {
+  height: 555px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.acx_p_port_right_inner_cnvs {
+  padding: 6px 15px 10px;
+}
+.acx_p_port_pro_content_cvr {
+  padding: 15px 0;
+}
+}
+
+
+@media screen and (min-width:1200px)
+{
+.acx_p_port_lbx_content {
+  max-width: 1200px;
+}
+.acx_p_port_lbx_left_cnvas {
+  max-width: 740px;
+}
+.acx_p_port_right_canvas {
+  max-width: 460px;
+}
+}
+
+@media screen and (min-width:1440px)
+{
+.acx_p_port_lbx_content {
+  max-width:1400px;
+}
+.acx_p_port_lbx_left_cnvas {
+  max-width:60%;
+}
+.acx_p_port_right_canvas {
+  max-width: 40%;
+}
+}
+
+
+

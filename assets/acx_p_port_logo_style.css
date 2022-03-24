@@ -1,0 +1,165 @@
+/* COMMON RESET STYLE */
+
+
+/* Armata */
+@font-face {
+    font-family: 'Armata-Regular';
+    src:url('acx_p_port_fonts/Armata-Regular.ttf') format('truetype');
+    font-weight:normal;
+    font-style: normal;
+}
+
+*
+{
+	padding:0;
+	margin:0;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+li
+{
+	list-style-type:none;
+}
+
+a
+{
+	text-decoration:none;
+}
+
+
+/* ---------------------------- */
+ 
+
+.acx_p_port_logo_lbx_cvr
+{
+	z-index: 1;
+	position:fixed;
+	width:100%;
+	height:100%;
+	float:left;
+	top:0px;
+	left:0px;
+	/*right:100%;*/
+	overflow-x:hidden;
+	overflow-y:auto;
+	background: rgba(255, 255, 255, 1);
+	/*background: transparent;
+	background: rgba(0, 0, 0, 0.1);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#19000000,endColorstr=#19000000);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#19000000,endColorstr=#19000000)";
+	/*background:url(acx_p_port_images/bg.jpg) no-repeat center center fixed;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-ms-background-size:cover;
+	-0-background-size:cover;*/
+	transition:0.3s ease;
+	
+}
+
+.acx_p_port_logo_lbx_content
+{
+
+	float:none;
+  margin: 300px auto;
+  max-width: 1024px;
+  display:block;
+  -moz-box-shadow:0px 0px 4px rgba(0,0,0,0.5);
+  -o-box-shadow:0px 0px 4px rgba(0,0,0,0.5);
+  -ms-box-shadow:0px 0px 4px rgba(0,0,0,0.5);
+  -webkit-box-shadow:0px 0px 4px rgba(0,0,0,0.5);
+  box-shadow:0px 0px 4px rgba(0,0,0,0.5);
+}
+
+.acx_p_port_logo_lbx_inside {
+  margin: 0;
+  width: 100%;
+  position:relative;
+  float:left;
+}
+
+.acx_p_port_close {
+  height: 40px;
+  width: 40px;
+  background:url(acx_p_port_images/acx_p_port_close_btn.png) no-repeat center center;
+  right: 10px;
+  top: 4px;
+  position:absolute;
+  cursor:pointer;
+}
+
+.acx_p_port_logo_lbx_left {
+  float: left;
+  width: 100%;
+}
+.acx_p_port_logo_lbx_left_inner {
+  display: block;
+  padding: 0;
+}
+.acx_p_port_logo_lbx_left_inner > img {
+  max-width: 100%;
+  vertical-align: middle;
+  display:block;
+  margin:0 auto;
+}
+
+
+.acx_p_port_logo_right_canvas {
+  width: 100%;
+  float:left;
+}
+.acx_p_port_logo_right_inner_cnvs {
+  padding: 10px 15px;
+}
+.acx_p_port_logo_project_detail {
+    color: #000;
+  display: block;
+  font-family: "Armata-Regular";
+  font-size: 24px;
+  text-align: left;
+  padding: 10px 5px;
+  text-transform:uppercase;
+  position:relative;
+}
+
+.acx_p_port_logo_project_detail::after {
+	background:#000;
+  content: "";
+  height: 1px;
+  left:0;
+  position: absolute;
+  top:100%;
+  width:100%;
+}
+
+.acx_p_port_logo_pro_content_cvr {
+  display: block;
+  width: 100%;
+}
+.acx_p_port_logo_content_scroll_cnvs {
+  padding: 10px 0;
+}
+.acx_p_port_logo_data {
+  color: #666666;
+  display: block;
+  font-family: armata-regular;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: left;
+  margin: 12px 0;
+}
+.acx_p_port_logo_content_sml_title {
+  color: #000;
+  display: block;
+  font-family: armata-regular;
+  font-size: 18px;
+  text-align: left;
+  padding:5px 0px;
+  margin:5px 0px;
+}
+
+
